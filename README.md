@@ -13,5 +13,5 @@ docker-compose up -d
 
 # Usage
 By default, SafeSurf listens on 10888/HTTP. You can change this in ".env" file.
-Open http://<your-server-ip>:10888/<target-url> in browser.
+Open http://[your-server-ip]:10888/[target-url in browser.
 
