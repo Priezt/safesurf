@@ -2,7 +2,7 @@
 Lightweight Web-browsing Isolation Service
 
 # Description
-Basically, SafeSurf uses Apache Guacamole (VNC client in browser) as frontend and Docker+XVNC+Chromium as backend. It opens the URL in Chromium in "sandbox" and let you surf the target site by VNC.
+Basically, SafeSurf uses Apache Guacamole (VNC client in browser) as frontend and Docker+XVNC+Chromium as backend. It opens the URL in Chromium in docker container and let you browse the target site by VNC.
 
 # Installation
 ```
