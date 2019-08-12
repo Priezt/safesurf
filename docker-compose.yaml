@@ -26,7 +26,7 @@ services:
         image: nginx:1.16
         volumes:
             - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-            - ./web/static:/static
+            - ./web/webapp/static:/static
         ports:
             - ${SERVICE_PORT}:80
         networks:
@@ -50,10 +50,16 @@ services:
         networks:
             - safesurf
     web:
-        image: ubuntu
-        command: vmstat 1
+        build: ./web
+        command: /web/start.sh
         depends_on:
             - mysql
+        volumes:
+            - ./web:/web
+            - ./tools:/tools
+            - ./setting.yaml:/setting.yaml
+        environment:
+            - MYSQL_PASSWORD=${DB_PASS}
         networks:
             - safesurf
 networks:

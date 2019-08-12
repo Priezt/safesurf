@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script src="/static/js/jquery.min.js"></script>
+		<script>
+$(function(){
+	var url = window.location.href.replace(/^https?:\/\//, '').replace(/^[^\/]+\//, '');
+	console.log(url);
+    $.ajax({
+        type: "POST",
+        url: "/jump/",
+        cache: false,
+        dataType: 'json',
+		data: {
+			url: url,
+			width: $(window).width(),
+			height: $(window).height(),
+		},
+        success: function(data){
+			if(data.success){
+				//console.log(data.url);
+				window.location = data.url;
+			}else{
+				console.log(data.msg);
+			}
+        },
+        error: function(){
+            console.log("fail");
+        },
+    });
+});
+		</script>
+	</head>
+</html>
