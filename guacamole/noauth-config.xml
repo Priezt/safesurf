@@ -1,0 +1,202 @@
+<configs>
+        <config name="c-chrome-1" protocol="vnc">
+                <param name="hostname" value="c-chrome-1" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-2" protocol="vnc">
+                <param name="hostname" value="c-chrome-2" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-3" protocol="vnc">
+                <param name="hostname" value="c-chrome-3" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-4" protocol="vnc">
+                <param name="hostname" value="c-chrome-4" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-5" protocol="vnc">
+                <param name="hostname" value="c-chrome-5" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-6" protocol="vnc">
+                <param name="hostname" value="c-chrome-6" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-7" protocol="vnc">
+                <param name="hostname" value="c-chrome-7" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-8" protocol="vnc">
+                <param name="hostname" value="c-chrome-8" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-9" protocol="vnc">
+                <param name="hostname" value="c-chrome-9" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-10" protocol="vnc">
+                <param name="hostname" value="c-chrome-10" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-11" protocol="vnc">
+                <param name="hostname" value="c-chrome-11" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-12" protocol="vnc">
+                <param name="hostname" value="c-chrome-12" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-13" protocol="vnc">
+                <param name="hostname" value="c-chrome-13" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-14" protocol="vnc">
+                <param name="hostname" value="c-chrome-14" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-15" protocol="vnc">
+                <param name="hostname" value="c-chrome-15" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-16" protocol="vnc">
+                <param name="hostname" value="c-chrome-16" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-17" protocol="vnc">
+                <param name="hostname" value="c-chrome-17" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-18" protocol="vnc">
+                <param name="hostname" value="c-chrome-18" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-19" protocol="vnc">
+                <param name="hostname" value="c-chrome-19" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-20" protocol="vnc">
+                <param name="hostname" value="c-chrome-20" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-21" protocol="vnc">
+                <param name="hostname" value="c-chrome-21" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-22" protocol="vnc">
+                <param name="hostname" value="c-chrome-22" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-23" protocol="vnc">
+                <param name="hostname" value="c-chrome-23" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-24" protocol="vnc">
+                <param name="hostname" value="c-chrome-24" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-25" protocol="vnc">
+                <param name="hostname" value="c-chrome-25" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-26" protocol="vnc">
+                <param name="hostname" value="c-chrome-26" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-27" protocol="vnc">
+                <param name="hostname" value="c-chrome-27" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-28" protocol="vnc">
+                <param name="hostname" value="c-chrome-28" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-29" protocol="vnc">
+                <param name="hostname" value="c-chrome-29" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-30" protocol="vnc">
+                <param name="hostname" value="c-chrome-30" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-31" protocol="vnc">
+                <param name="hostname" value="c-chrome-31" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-32" protocol="vnc">
+                <param name="hostname" value="c-chrome-32" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-33" protocol="vnc">
+                <param name="hostname" value="c-chrome-33" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-34" protocol="vnc">
+                <param name="hostname" value="c-chrome-34" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-35" protocol="vnc">
+                <param name="hostname" value="c-chrome-35" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-36" protocol="vnc">
+                <param name="hostname" value="c-chrome-36" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-37" protocol="vnc">
+                <param name="hostname" value="c-chrome-37" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-38" protocol="vnc">
+                <param name="hostname" value="c-chrome-38" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-39" protocol="vnc">
+                <param name="hostname" value="c-chrome-39" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-40" protocol="vnc">
+                <param name="hostname" value="c-chrome-40" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-41" protocol="vnc">
+                <param name="hostname" value="c-chrome-41" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-42" protocol="vnc">
+                <param name="hostname" value="c-chrome-42" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-43" protocol="vnc">
+                <param name="hostname" value="c-chrome-43" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-44" protocol="vnc">
+                <param name="hostname" value="c-chrome-44" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-45" protocol="vnc">
+                <param name="hostname" value="c-chrome-45" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-46" protocol="vnc">
+                <param name="hostname" value="c-chrome-46" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-47" protocol="vnc">
+                <param name="hostname" value="c-chrome-47" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-48" protocol="vnc">
+                <param name="hostname" value="c-chrome-48" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-49" protocol="vnc">
+                <param name="hostname" value="c-chrome-49" />
+                <param name="port" value="5900" />
+        </config>
+        <config name="c-chrome-50" protocol="vnc">
+                <param name="hostname" value="c-chrome-50" />
+                <param name="port" value="5900" />
+        </config>
+</configs>

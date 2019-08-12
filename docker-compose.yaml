@@ -15,8 +15,7 @@ services:
         networks:
             - safesurf
         depends_on:
-            - guacd
-            - mysql
+            - secretary
         environment:
             - GUACD_HOSTNAME=guacd
             - MYSQL_HOSTNAME=mysql
@@ -30,6 +29,31 @@ services:
             - ./web/static:/static
         ports:
             - ${SERVICE_PORT}:80
+        networks:
+            - safesurf
+        depends_on:
+            - guacamole
+            - web
+    secretary:
+        build: ./secretary
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./secretary:/secretary
+            - ./tools:/tools
+            - ./guacamole:/guacamole
+        environment:
+            - MYSQL_PASSWORD=${DB_PASS}
+        command: /secretary/run.sh
+        depends_on:
+            - guacd
+            - mysql
+        networks:
+            - safesurf
+    web:
+        image: ubuntu
+        command: vmstat 1
+        depends_on:
+            - mysql
         networks:
             - safesurf
 networks:
