@@ -1,0 +1,12 @@
+###### Ubuntu Main Repos
+deb http://cn.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
+
+###### Ubuntu Update Repos
+deb http://cn.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ xenial-proposed main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
+
+###### Ubuntu Partner Repo
+deb http://archive.canonical.com/ubuntu xenial partner
+

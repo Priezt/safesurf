@@ -54,6 +54,7 @@ services:
         command: /web/start.sh
         depends_on:
             - mysql
+            - operator
         volumes:
             - ./web:/web
             - ./tools:/tools
@@ -62,5 +63,21 @@ services:
             - MYSQL_PASSWORD=${DB_PASS}
         networks:
             - safesurf
+    browser_dummy:
+        build: ./browser
+        image: safesurf-browser
+        command: dummy
+        networks:
+            - safesurf
+    operator:
+        build: ./operator
+        depends_on:
+            - browser_dummy
+            - mysql
+        networks:
+            - safesurf
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./setting.yaml:/setting.yaml
 networks:
     safesurf:
