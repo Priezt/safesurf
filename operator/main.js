@@ -17,8 +17,8 @@ var containers = {
 };
 
 for(let c=1;c<=setting.containers.count;c++){
-	containers.all.push(`c-chrome-${c}`);
-	containers.free.push(`c-chrome-${c}`);
+	containers.all.push(`ss-chrome-${c}`);
+	containers.free.push(`ss-chrome-${c}`);
 }
 
 async function get_container(){
@@ -35,7 +35,7 @@ router.post('/open', async (ctx, next) => {
 	let cn = await get_container();
 	console.log(`${cn}: <${width},${height}>:${url}`);
 	await new Promise((resolve)=>{
-		shell.exec(`docker run -d --rm --name ${cn} -e WINDOW_WIDTH=${width} -e WINDOW_HEIGHT=${height} --network condom c-chrome '${url}'`, (code, stdout, stderr)=>{
+		shell.exec(`docker run -d --rm --name ${cn} -e WINDOW_WIDTH=${width} -e WINDOW_HEIGHT=${height} --network safesurf_safesurf safesurf-browser '${url}'`, (code, stdout, stderr)=>{
 			//console.log(code);
 			//console.log(stdout);
 			resolve(true);
@@ -48,7 +48,7 @@ router.post('/open', async (ctx, next) => {
 
 async function recycle_container(){
 	output = await new Promise((resolve)=>{
-		shell.exec("docker ps --filter status=running --format '{{.Names}}'  | grep ^c-chrome| tr '\\n' ,", (code, stdout, stderr)=>{
+		shell.exec("docker ps --filter status=running --format '{{.Names}}'  | grep ^ss-chrome| tr '\\n' ,", (code, stdout, stderr)=>{
 			resolve(stdout);
 		});
 	});

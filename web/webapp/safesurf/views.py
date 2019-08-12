@@ -26,13 +26,13 @@ def jump_to_guacamole(request):
     height = request.POST.get("height")
     #height = int((float(height) / float(width)) * 1280)
     #width = 1280
-    response = requests.post("http://host:%s/open" % (setting["operator"]["port"]), {
+    response = requests.post("http://operator:%s/open" % (setting["operator"]["port"]), {
         "url": url,
         "width": width,
         "height": height,
     })
     result = json.loads(str(response.text))
-    client_name = base64.b64encode((result["container_name"] + '\0' + 'ss' + '\0' + 'noauth').encode()).decode()
+    client_name = base64.b64encode((result["container_name"] + '\0' + 'c' + '\0' + 'noauth').encode()).decode()
     return JsonResponse({
         "success": True,
         "url": "/safesurf/#/client/%s" % client_name,
